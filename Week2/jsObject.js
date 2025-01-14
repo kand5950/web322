@@ -19,16 +19,32 @@ let student1 = {
         this.id = newID;
     },
 
+    getID: function() {
+        return this.id;
+    },
+
     setName: function (newName) {
         this.name = newName;
+    },
+
+    getName: function() {
+        return this.name;
     },
 
     setPhone: function (newPhone) {
         this.name = newPhone;
     },
 
+    getPhone: function() {
+        return this.phone;
+    },
+
     setEmail: function (newEmail) {
         this.email = newEmail;
-    }
+    },
+
+    getEmail: function() {
+        return this.email;
+    },
 
 };
