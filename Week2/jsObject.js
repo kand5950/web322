@@ -8,3 +8,27 @@ let student = {
 };
 
 console.log(`Name : ${student.studentName}`);
+
+let student1 = {
+    id: 12345,
+    name: "John",
+    phone: "123-456-7890",
+    email: "john@doe.com",
+
+    setID: function (newID) {
+        this.id = newID;
+    },
+
+    setName: function (newName) {
+        this.name = newName;
+    },
+
+    setPhone: function (newPhone) {
+        this.name = newPhone;
+    },
+
+    setEmail: function (newEmail) {
+        this.email = newEmail;
+    }
+
+};
