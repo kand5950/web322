@@ -47,4 +47,15 @@ let student1 = {
         return this.email;
     },
 
+    outputNameDelay: function () {
+        let that = this; //initialize local variable so this function can know what the object properties are
+        setTimeout(function () {
+            console.log(`After 1 second timeout: ${that.name}`);
+        }, 1000);
+    }
 };
+
+console.log(`Student Name: ${student1.name}`);
+console.log(`Student Name with getName: ${student1.getName()}`);
+
+student1.outputNameDelay();
